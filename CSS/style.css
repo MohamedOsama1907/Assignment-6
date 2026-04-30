@@ -481,8 +481,18 @@ button[data-bs-target="#carouselExampleIndicators"] {
   width: 70px !important;
   height: 70px !important;
 }
+
+
+
+
+
+/* =============================================
+   =============================================
+   ==================== here ===================
+   =============================================
+   ============================================= */
 .teamMember {
-  overflow: hidden;
+  /* overflow: hidden; */
   cursor: pointer;
   height: 320px;
   filter: grayscale(100%) brightness(0.9);
