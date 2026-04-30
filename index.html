@@ -3,12 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- open graph -->
+    <meta property="og:title" content="Game Arena" />
+    <meta
+      property="og:description"
+      content="the ultimate destination for competitive eSports" />
+    <meta
+      property="og:image"
+      content="https://mohamedosama1907.github.io/Assignment-6/images/favicon.png" />
+    <meta
+      property="og:url"
+      content="https://mohamedosama1907.github.io/Assignment-6/" />
+    <meta property="og:type" content="website" />
+    <!-- robots meta ===> i don't understand why ? -->
+    <meta name="robots" content="index, follow" />
     <meta
       name="description"
       content="Join GameArena, the ultimate destination for competitive eSports. Discover the latest games, join global tournaments, and experience next-level gaming with our professional community. Start your journey today!" />
     <meta name="author" content="Mohamed Osama" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
     <!-- bootstrab file -->
     <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
     <!-- Chakra Petch font (main font) -->
@@ -30,7 +45,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <!-- css file -->
     <link rel="stylesheet" href="./CSS/style.css" />
-    <title>Games Website</title>
+    <title>Game Arena</title>
   </head>
   <body>
     <!-- header section -->
@@ -441,7 +456,7 @@
           <!-- controls -->
           <div class="container">
             <div
-              class="slideConrtol d-flex justify-content-center align-items-center flex-column flex-lg-row mt-5 gap-3">
+              class="slideControl d-flex justify-content-center align-items-center flex-column flex-lg-row mt-5 gap-3">
               <div class="d-flex column-gap-3">
                 <button
                   class="btn rounded-circle border-2 border-secondary d-flex justify-content-center align-items-center"
@@ -1314,7 +1329,7 @@
                     <input
                       type="email"
                       class="form-control"
-                      name="EmialAddress"
+                      name="EmailAddress"
                       id="inputEmail4"
                       placeholder="your.email@exaple.com" />
                   </div>
@@ -1342,7 +1357,6 @@
                     >
                     <textarea
                       class="form-control"
-                      value="message from user"
                       id="exampleFormControlTextarea1"
                       rows="3"></textarea>
                   </div>
@@ -1470,7 +1484,3 @@
     <script src="./JS/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-
-<!-- <i class="fa-solid fa-phone"></i> 
-     <i class="fa-solid fa-envelope"></i> 
--->
