@@ -508,8 +508,13 @@ button[data-bs-target="#carouselExampleIndicators"]:hover {
 .ourTeam h3 {
   max-width: 97%;
 }
-
+/* ===========================================
+   ===========================================
+   =================  here ======================
+   ===========================================
+   =========================================== */
 .teamMember {
+  /* overflow: hidden; */
   cursor: pointer;
   height: 320px;
   filter: grayscale(100%) brightness(0.9);
@@ -679,9 +684,7 @@ input[type="checkbox"] + label {
   color: var(--main-color) !important;
 }
 
-/* ==========================================================================
-   10. INTERMEDIATE MEDIA QUERIES (Desktop/Tablet)
-   ========================================================================== */
+/* Desktop/Tablet */
 @media screen and (max-width: 997px) {
   .titleLine::before {
     width: 80px;
@@ -731,10 +734,6 @@ input[type="checkbox"] + label {
     left: 40% !important;
   }
 }
-
-/* ==========================================================================
-   11. SMALL SCREEN MEDIA QUERIES (AS REQUESTED AT THE END)
-   ========================================================================== */
 
 /* Tablet Portrait / Large Mobile range */
 @media screen and (min-width: 641px) and (max-width: 767px) {
@@ -799,6 +798,10 @@ input[type="checkbox"] + label {
   a[href="#contactUS"] {
     padding-bottom: 20px !important;
     border-bottom: 1px solid #1e2939 !important;
+  }
+  .heroImage > div {
+    top: 83%;
+    left: -2%;
   }
   h2 {
     font-size: 30px !important;
@@ -869,7 +872,7 @@ input[type="checkbox"] + label {
   }
   .allRights a {
     line-height: 21px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
   }
 }
