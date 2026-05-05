@@ -232,32 +232,31 @@ h2 {
 
 .titleLine::before {
   content: "";
-  height: 4px;
-  width: 80px;
   position: absolute;
-  top: 9px;
-  left: 37%;
+  width: 10%;
+  height: 2px;
   background: linear-gradient(
     90deg,
     rgba(11, 14, 19, 1) 0%,
-    rgba(203, 254, 28, 1) 80%
+    rgba(203, 254, 28, 1) 100%
   );
+  top: 50%;
+  left: 32%;
 }
 
 .titleLine::after {
   content: "";
-  height: 4px;
-  width: 80px;
   position: absolute;
-  top: 9px;
-  left: 57%;
+  width: 10%;
+  height: 2px;
   background: linear-gradient(
     90deg,
     rgba(203, 254, 28, 1) 0%,
-    rgba(11, 14, 19, 1) 93%
+    rgba(11, 14, 19, 1) 100%
   );
+  top: 50%;
+  right: 32%;
 }
-
 .image {
   overflow: hidden;
   transition: all 0.3s ease-in;
@@ -687,14 +686,13 @@ input[type="checkbox"] + label {
 /* Desktop/Tablet */
 @media screen and (max-width: 997px) {
   .titleLine::before {
-    width: 80px;
-    top: 9px;
-    left: 19%;
+    top: 50%;
+    left: 25% !important;
   }
+
   .titleLine::after {
-    top: 9px;
-    left: 66%;
-    width: 80px;
+    top: 50%;
+    right: 25% !important;
   }
   .navbar-nav a {
     margin-top: 20px !important;
@@ -704,7 +702,7 @@ input[type="checkbox"] + label {
     border-bottom: 2px solid #1e2939 !important;
   }
 }
-
+/* 
 @media screen and (min-width: 997px) and (max-width: 1123px) {
   .titleLine::before {
     width: 80px;
@@ -716,7 +714,7 @@ input[type="checkbox"] + label {
     left: 59%;
     width: 80px;
   }
-}
+} */
 
 @media (min-width: 1100px) and (max-width: 1200px) {
   .container {
