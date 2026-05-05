@@ -167,7 +167,7 @@ button:hover::after {
    3. HERO SECTION
    ========================================================================== */
 .heroSection {
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/hero-bg.webp);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -207,6 +207,9 @@ h1 {
 .buttons button:last-child:hover {
   background-color: var(--main-color);
   color: #0b0e13;
+}
+.heroImage {
+  box-sizing: border-box !important;
 }
 
 .heroImage img {
@@ -873,4 +876,7 @@ input[type="checkbox"] + label {
     font-size: 13px;
     font-weight: 400;
   }
+}
+body {
+  overflow-x: hidden !important;
 }
