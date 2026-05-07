@@ -39,7 +39,10 @@ A modern gaming landing page built using HTML5, CSS3 & Bootstrap, delivering an 
 * Creating smooth UI interactions
 * Applying visual effects like blur and overlays
 * Structuring a multi-section landing page
-  
+ 
+---
+
+ 
 ## 📱 Responsive Breakpoints
 
 * Mobile: Default
