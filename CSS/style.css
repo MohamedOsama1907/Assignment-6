@@ -111,7 +111,10 @@ button:hover::after {
 .nav-link {
   transition: all var(--main-duration) ease-in;
 }
-
+.nav-link:active,
+.nav-link:focus {
+  color: var(--main-color) !important;
+}
 .navbar-nav a.nav-link:hover {
   color: var(--main-color) !important;
 }
@@ -510,13 +513,9 @@ button[data-bs-target="#carouselExampleIndicators"]:hover {
 .ourTeam h3 {
   max-width: 97%;
 }
-/* ===========================================
-   ===========================================
-   =================  here ======================
-   ===========================================
-   =========================================== */
+
 .teamMember {
-  /* overflow: hidden; */
+  overflow: hidden;
   cursor: pointer;
   height: 320px;
   filter: grayscale(100%) brightness(0.9);
